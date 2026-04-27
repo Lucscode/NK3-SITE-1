@@ -488,7 +488,7 @@ h2.section-title span {
 .bento-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-auto-rows: minmax(280px, auto);
+    grid-auto-rows: minmax(200px, auto);
     gap: 1.5rem;
 }
 .bento-card {
@@ -551,7 +551,7 @@ h2.section-title span {
 /* Bento Sizes */
 .card-large {
     grid-column: span 2;
-    grid-row: span 1;
+    grid-row: span 2;
 }
 .card-large h3 { font-size: 1.6rem; }
 .card-large p { font-size: 1rem; max-width: 90%; }
