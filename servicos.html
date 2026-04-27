@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Serviços NK3 IT - Suporte TI Gerenciado, PABX Virtual e Infraestrutura.">
+    <title>Serviços | TI Gerenciada NK3 IT</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        .service-card {
+            background: var(--bg-tertiary);
+            padding: 3rem 2.5rem;
+            border-radius: 16px;
+            border: 1px solid var(--glass-border);
+            transition: var(--transition-smooth);
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+        .service-card:hover {
+            border-color: var(--accent-cyan);
+            transform: translateY(-5px);
+        }
+        .service-icon {
+            font-size: 3rem;
+            color: var(--accent-cyan);
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets%20nk3it/cropped-android-chrome-192x192-1.png" alt="NK3 IT Logo" height="45">
+                </a>
+            </div>
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="sobre.html">A NK3IT</a>
+                <a href="servicos.html" class="active">Serviços</a>
+                <a href="solucoes.html">Soluções</a>
+                <a href="microsoft.html">Microsoft</a>
+                <a href="contato.html" class="btn-primary-small">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-header" style="padding: 12rem 0 6rem; text-align: center; background: linear-gradient(180deg, var(--bg-secondary) 0%, var(--bg-main) 100%);">
+        <div class="container fade-in-up">
+            <h1 class="hero-title">Serviços e <span class="text-accent">TI Gerenciada</span></h1>
+            <p class="hero-subtitle">Terceirização estratégica completa da sua infraestrutura. Transforme a tecnologia em um motor veloz de receita, não numa dor de cabeça invisível.</p>
+        </div>
+    </section>
+
+    <!-- Services Grid -->
+    <section style="padding: 4rem 0 8rem;">
+        <div class="container fade-in-up">
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2.5rem;">
+                
+                <div class="service-card">
+                    <i class="ph ph-stethoscope service-icon"></i>
+                    <h3 style="font-size: 1.5rem;">Suporte Técnico N1, N2 e N3</h3>
+                    <p style="color: var(--text-secondary); line-height: 1.7;">O coração da nossa operação. Nossa equipe não apaga incêndios, nós os prevenimos através do monitoramento 24/7. Suporte rápido desde o reset de senha (N1) à arquitetura robusta de servidores e complexidade de rede de nível 3.</p>
+                </div>
+
+                <div class="service-card">
+                    <i class="ph ph-phone-call service-icon"></i>
+                    <h3 style="font-size: 1.5rem;">Telefonia IP & PABX Virtual</h3>
+                    <p style="color: var(--text-secondary); line-height: 1.7;">Seu número empresarial acompanha você aonde quer que você vá. Um PABX corporativo em nuvem: secretária digital avançada, URA (menu de navegação), fila de chamadas e controle inteligente das despesas de cada setor.</p>
+                </div>
+
+                <div class="service-card">
+                    <i class="ph ph-hard-drives service-icon"></i>
+                    <h3 style="font-size: 1.5rem;">Gestão de Redes e Servidores</h3>
+                    <p style="color: var(--text-secondary); line-height: 1.7;">Sem lentidões misteriosas ou perdas de ping. Padronização de todo o parque tecnológico, roteamento OSPF dinâmico corporativo, switches gerenciáveis e servidores balanceados prontos pra alta demanda sem travar.</p>
+                </div>
+
+                <div class="service-card">
+                    <i class="ph ph-plugs-connected service-icon"></i>
+                    <h3 style="font-size: 1.5rem;">Cabeamento & Infra</h3>
+                    <p style="color: var(--text-secondary); line-height: 1.7;">Construção e rack mounting profissional. Roteamento de fibra otimizada, cabeamento de rede estruturada em Categoria 6/6A para as estações fluírem com performance que evita quebra ou instabilidade na intranet.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Banner Avaliação -->
+    <section style="background-color: var(--bg-tertiary); padding: 6rem 0; border-top: 1px solid var(--glass-border); text-align: center;">
+        <div class="container fade-in-up">
+            <h2 style="font-size: 2.5rem; margin-bottom: 1.5rem;">Preocupado se seu setor está atualizado?</h2>
+            <p style="color: var(--text-secondary); font-size: 1.25rem; margin-bottom: 2.5rem; max-width: 600px; margin-left: auto; margin-right: auto;">Agende uma avaliação minuciosa da sua atual arquitetura de TI com a NK3 e mapeie suas falhas antes que elas aconteçam.</p>
+            <a href="contato.html" class="btn-primary">Solicitar Avaliação de TI</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contato">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a href="index.html">
+                    <img src="assets%20nk3it/cropped-android-chrome-192x192-1.png" alt="NK3 IT Logo" height="50" style="margin-bottom: 1rem;">
+                </a>
+                <p>O futuro sustentável e seguro dos seus dados corporativos começa aqui.</p>
+            </div>
+            
+            <div class="footer-links">
+                <h4>Empresa</h4>
+                <ul>
+                    <li><a href="sobre.html">A NK3IT</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="solucoes.html">Soluções</a></li>
+                    <li><a href="microsoft.html">Microsoft 365</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h4>Fale Conosco</h4>
+                <p class="contact-highlight">Dúvidas? Ligue <strong><a href="tel:+551931998969">(19) 3199-8969</a></strong></p>
+                <p>Rua Genebra - Indaiatuba, SP</p>
+            </div>
+            <div class="footer-newsletter">
+                <h4>Receba nossas dicas</h4>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Seu e-mail profissional" required>
+                    <button type="submit" class="btn-primary-small">Assinar</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container" style="display: flex; flex-direction: column; align-items: center; gap: 0.5rem;">
+                <p>&copy; 2026 NK3 IT. Todos os direitos reservados.</p>
+                <p style="font-size: 0.9rem; color: var(--text-secondary);">Desenvolvido por <a href="https://www.linkedin.com/in/lucasadmpereira/" target="_blank" rel="noopener noreferrer" style="color: var(--text-primary); font-weight: 600;">Lucas Pereira</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
