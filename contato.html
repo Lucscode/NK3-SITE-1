@@ -5,19 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="NK3 IT - Fale Conosco">
     <title>Contato | NK3 IT</title>
+    <link rel="icon" type="image/png" href="assets%20nk3it/cropped-android-chrome-192x192-1.png">
     
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Phosphor Icons -->
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    
     <link rel="stylesheet" href="css/styles.css">
-    <style>
-        .page-header {
-            padding: 12rem 0 6rem;
-            text-align: center;
-            background: linear-gradient(180deg, var(--bg-secondary) 0%, var(--bg-main) 100%);
-        }
-    </style>
 </head>
 <body>
     <!-- Navbar -->
@@ -34,22 +32,109 @@
                 <a href="servicos.html">Serviços</a>
                 <a href="solucoes.html">Soluções</a>
                 <a href="microsoft.html">Microsoft</a>
-                <a href="contato.html" class="btn-primary-small">Contato</a>
+                <a href="contato.html" class="active btn-primary-small" style="color: #000;">Contato</a>
             </nav>
         </div>
     </header>
 
-    <section class="page-header">
-        <div class="container fade-in-up">
-            <h1 class="hero-title">Entre em <span>Contato</span></h1>
-            <p class="hero-subtitle">Fale com um de nossos especialistas.</p>
+    <!-- Main Contact Section -->
+    <section class="contact-section" style="padding-top: 10rem;">
+        <div class="container contact-grid fade-in-up">
+            
+            <!-- Left Side: Info -->
+            <div class="contact-info">
+                <div class="contact-overline">[ ENTRE EM CONTATO ]</div>
+                <h2 class="contact-title">Entre em contato conosco para qualquer ajuda ou dúvida.</h2>
+                
+                <div class="contact-cards">
+                    <div class="info-card">
+                        <div class="info-icon"><i class="ph ph-whatsapp-logo"></i></div>
+                        <h3>WhatsApp</h3>
+                        <p><a href="https://wa.me/551931997969?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20saber%20um%20pouco%20mais%20sobre%20os%20servi%C3%A7os" target="_blank" rel="noopener noreferrer">+55 (19) 3199-7969</a></p>
+                        <p><a href="https://wa.me/551151990509?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20saber%20um%20pouco%20mais%20sobre%20os%20servi%C3%A7os" target="_blank" rel="noopener noreferrer">+55 (11) 5199-0509</a></p>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon"><i class="ph ph-envelope-simple"></i></div>
+                        <h3>Email</h3>
+                        <p><a href="mailto:suporte@nk3.com.br">suporte@nk3.com.br</a></p>
+                        <p><a href="mailto:contato@nk3.com.br">contato@nk3.com.br</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Side: Form -->
+            <div class="contact-form-wrapper">
+                <form class="tech-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="nome">Nome</label>
+                            <input type="text" id="nome" placeholder="John White" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="john@exemplo.com" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="empresa">Nome da empresa</label>
+                        <input type="text" id="empresa" placeholder="Sua Empresa" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" placeholder="Conte um pouco sobre o seu caso..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary form-submit">Enviar <i class="ph ph-paper-plane-right"></i></button>
+                </form>
+            </div>
+
         </div>
     </section>
 
-    <!-- Footer Simples -->
-    <footer class="footer" style="padding: 2rem 0; border-top: 1px solid var(--glass-border);">
-        <div class="container text-center">
-            <p style="color: var(--text-secondary); font-size: 0.9rem;">&copy; 2026 NK3 IT.</p>
+    <!-- Footer -->
+    <footer class="footer" id="contato">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a href="index.html">
+                    <img src="assets%20nk3it/cropped-android-chrome-192x192-1.png" alt="NK3 IT Logo" height="50" style="margin-bottom: 1rem;">
+                </a>
+                <p>O futuro sustentável e seguro dos seus dados corporativos começa aqui.</p>
+            </div>
+            
+            <div class="footer-links">
+                <h4>Empresa</h4>
+                <ul>
+                    <li><a href="sobre.html">A NK3IT</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="solucoes.html">Soluções</a></li>
+                    <li><a href="microsoft.html">Microsoft 365</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h4>Fale Conosco</h4>
+                <p class="contact-highlight">Dúvidas? Chame no WhatsApp: <strong><a href="https://wa.me/551931998969?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20saber%20um%20pouco%20mais%20sobre%20os%20servi%C3%A7os" target="_blank" rel="noopener noreferrer">(19) 3199-8969</a></strong></p>
+                <p>Av. Eng. Fábio Roberto Barnabé, 1205 - Jardim Esplanada, Indaiatuba - SP, 13330-655</p>
+                <div class="social-links">
+                    <a href="#"><i class="ph ph-linkedin-logo"></i></a>
+                    <a href="#"><i class="ph ph-instagram-logo"></i></a>
+                    <a href="#"><i class="ph ph-youtube-logo"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-newsletter">
+                <h4>Receba nossas dicas</h4>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Seu e-mail profissional" required>
+                    <button type="submit" class="btn-primary-small">Assinar</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container" style="display: flex; flex-direction: column; align-items: center; gap: 0.5rem;">
+                <p>&copy; 2026 NK3 IT. Todos os direitos reservados.</p>
+                <p style="font-size: 0.9rem; color: var(--text-secondary);">Desenvolvido por <a href="https://www.linkedin.com/in/lucasadmpereira/" target="_blank" rel="noopener noreferrer" style="color: var(--text-primary); font-weight: 600;">Lucas Pereira</a></p>
+            </div>
         </div>
     </footer>
 
